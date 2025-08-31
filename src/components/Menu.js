@@ -20,7 +20,7 @@ const Menu = () => {
 
   return (
     <div className="menu-container">
-      <img src="alphakite.png" style={{ width: "150px" }} />
+      <img src="alphakite.png" alt="logo" style={{ width: "150px" }} />
       <div className="menus">
         <ul>
           <li>
@@ -70,7 +70,7 @@ const Menu = () => {
           <li>
             <Link
               style={{ textDecoration: "none" }}
-              to="funds"
+              to="/funds"
               onClick={() => handleMenuClick(4)}
             >
               <p className={selectedMenu === 4 ? activeMenuClass : menuClass}>
