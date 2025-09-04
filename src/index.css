@@ -841,3 +841,110 @@ hr {
 .action:hover {
   background-color: rgb(212, 212, 212);
 }
+
+
+
+
+
+/* ========================================= */
+/* Responsive Mobile Styles         */
+/* ========================================= */
+
+@media (max-width: 768px) {
+  
+  /* --- Main Layout --- */
+  
+  /* Stack the main dashboard sections (watchlist & content) vertically */
+  .dashboard-container {
+    flex-direction: column;
+    height: auto; /* Allow height to grow with content */
+  }
+  
+  /* Make both main sections take up the full width */
+  .content,
+  .watchlist-container,
+  .menu-container {
+    flex-basis: 100%;
+    width: 100%;
+  }
+
+  /* Make the topbar indices stack and center */
+  .topbar-container {
+    height: auto;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  .indices-container {
+    border-right: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+  }
+
+  /* Adjust the navigation menu for smaller screens */
+  .menus li {
+    margin-right: 15px; /* Reduce space between menu items */
+  }
+  .profile {
+    margin-left: 10px;
+  }
+  
+  /* --- Content & Columns --- */
+  
+  /* Stack all multi-column rows vertically */
+  .row {
+    flex-direction: column;
+  }
+  
+  /* Make each column full-width and add spacing between them */
+  .col {
+    flex-basis: 100%;
+    width: 100%;
+    margin-bottom: 30px; /* Add space when columns stack */
+  }
+
+  .col:last-child {
+    margin-bottom: 0;
+  }
+
+  .content {
+    padding: 5% 4%; /* Adjust padding for smaller screens */
+  }
+
+  /* --- Font Sizes & Spacing --- */
+  
+  /* Reduce oversized headings to fit mobile */
+  .col h5 {
+    font-size: 1.5rem;
+  }
+  
+  .data .first h3 {
+    font-size: 2rem;
+  }
+  
+  .imp {
+    font-size: 1.2rem;
+  }
+
+  .username h6 {
+    font-size: 1.3rem;
+  }
+  
+  /* Adjust the 'funds available' section */
+  .funds {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  /* --- Fixed/Absolute Positioned Elements --- */
+
+  /* Make the bottom watchlist navigation full-width */
+  .watchlist-number {
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around;
+  }
+  
+  .watchlist-number ul li {
+    padding: 10px 15px;
+  }
+}
