@@ -11,7 +11,7 @@ const WatchList = () => {
   // --- STEP 2: Use useEffect to fetch data from the backend ---
   useEffect(() => {
     // This function runs once when the component mounts
-    axios.get("http://localhost:3002/watchlist")
+    axios.get("https://alphatrade-backend-1.onrender.com/watchlist")
       .then((res) => {
         setWatchlistData(res.data); // Store the fetched data in state
       })
