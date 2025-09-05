@@ -23,9 +23,8 @@ Built with **React**, this single-page application (SPA) serves as the central h
 
 It communicates securely with the **AlphaKite Backend API** to fetch and display **real-time financial information**.  
 
-**Live Dashboard URL:** `https://your-dashboard-url.vercel.app`  
-(Replace with your actual Vercel URL)  
-
+**Live Dashboard URL:** `https://alpha-trade-dash-board.vercel.app/`  
+  
 ---
 
 ## 🎯 Key Features  
