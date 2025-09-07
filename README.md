@@ -15,15 +15,13 @@ The main client-facing application for the AlphaKite platform, providing a rich,
 ---
 
 ## ✨ Overview  
-This repository contains the primary **user dashboard** for the AlphaKite application.  
-Built with **React**, this single-page application (SPA) serves as the central hub for users to:  
-- Manage their investments  
-- View live market data  
-- Interact with their portfolio  
+✨ Overview
+This repository contains the primary user dashboard for the AlphaKite application. 
+After logging in through the main AlphaTrade website, users are directed here to manage their investments.
 
-It communicates securely with the **AlphaKite Backend API** to fetch and display **real-time financial information**.  
-
-**Live Dashboard URL:** `https://alpha-trade-dash-board.vercel.app/`  
+Built with React, this single-page application (SPA) serves as the central hub for users to view live market data, manage their portfolio, and place orders. 
+It communicates securely with the AlphaTrade Backend API to fetch and display real-time financial information.
+**Live Dashboard URL:** `https://alpha-trade-dash-board.vercel.app`  
   
 ---
 
@@ -71,4 +69,4 @@ Navigate to the project directory
 
 npm start
 
-The app will start on: http://localhost:3000
+The app will start on: http://localhost:3001
